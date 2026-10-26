@@ -1,0 +1,235 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="100%" height="100%" style="background:#070a13; border-radius:12px; overflow:hidden;">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080d1a" />
+      <stop offset="50%" stop-color="#0d1527" />
+      <stop offset="100%" stop-color="#070a14" />
+    </linearGradient>
+
+    <radialGradient id="glowPurple" cx="15%" cy="20%" r="55%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.28" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glowBlue" cx="85%" cy="80%" r="55%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.32" />
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glowTeal" cx="50%" cy="10%" r="40%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Title Gradient -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#60a5fa" />
+      <stop offset="35%" stop-color="#a78bfa" />
+      <stop offset="70%" stop-color="#f472b6" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+
+    <!-- Analytics Line Gradient -->
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.1" />
+      <stop offset="30%" stop-color="#6366f1" stop-opacity="0.9" />
+      <stop offset="70%" stop-color="#ec4899" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.8" />
+    </linearGradient>
+
+    <linearGradient id="areaGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.75" stroke-opacity="0.25" />
+    </pattern>
+
+    <!-- Filters -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.6" />
+    </filter>
+
+    <filter id="pillShadow">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.35; transform: scale(1); }
+      50% { opacity: 0.65; transform: scale(1.08); }
+    }
+    @keyframes dashMove {
+      0% { stroke-dashoffset: 1200; }
+      100% { stroke-dashoffset: 0; }
+    }
+    @keyframes heatPulse {
+      0% { r: 4px; opacity: 1; }
+      70% { r: 24px; opacity: 0; }
+      100% { r: 24px; opacity: 0; }
+    }
+    @keyframes floatCard1 {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-7px); }
+    }
+    @keyframes floatCard2 {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(6px); }
+    }
+    @keyframes radarSpin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    .pulsing-glow {
+      transform-origin: center;
+      animation: pulseGlow 6s ease-in-out infinite;
+    }
+    .flow-line {
+      stroke-dasharray: 1200;
+      animation: dashMove 14s linear infinite;
+    }
+    .heat-ring-1 {
+      animation: heatPulse 2.8s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+      transform-origin: 220px 290px;
+    }
+    .heat-ring-2 {
+      animation: heatPulse 3.2s cubic-bezier(0.215, 0.61, 0.355, 1) infinite 1.2s;
+      transform-origin: 980px 110px;
+    }
+    .float-badge-1 {
+      animation: floatCard1 5s ease-in-out infinite;
+    }
+    .float-badge-2 {
+      animation: floatCard2 6s ease-in-out infinite;
+    }
+    .text-title {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+    }
+    .text-mono {
+      font-family: 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace;
+    }
+  </style>
+
+  <!-- 1. Background Layers -->
+  <rect width="1200" height="380" fill="url(#bgGrad)" />
+  <rect width="1200" height="380" fill="url(#grid)" />
+
+  <circle cx="180" cy="90" r="280" fill="url(#glowPurple)" class="pulsing-glow" />
+  <circle cx="1020" cy="290" r="300" fill="url(#glowBlue)" class="pulsing-glow" style="animation-delay: -3s;" />
+  <circle cx="600" cy="50" r="220" fill="url(#glowTeal)" class="pulsing-glow" style="animation-delay: -1.5s;" />
+
+  <!-- 2. Dynamic Wave / Chart Stream behind text -->
+  <g opacity="0.6">
+    <!-- Area under curve -->
+    <path d="M 0 320 Q 150 240 300 280 T 600 230 T 900 270 T 1200 210 L 1200 380 L 0 380 Z" fill="url(#areaGrad)" />
+    <!-- Animated Chart Lines -->
+    <path d="M 0 320 Q 150 240 300 280 T 600 230 T 900 270 T 1200 210" 
+          fill="none" stroke="url(#lineGrad)" stroke-width="3.5" class="flow-line" filter="url(#glow)" />
+    <path d="M 0 340 Q 200 300 400 330 T 800 300 T 1200 280" 
+          fill="none" stroke="#06b6d4" stroke-width="1.5" stroke-opacity="0.4" stroke-dasharray="8 6" />
+  </g>
+
+  <!-- 3. Dynamic Heatmap Click Point Pulses -->
+  <g opacity="0.85">
+    <!-- Click 1 at 220, 290 -->
+    <circle cx="220" cy="290" r="5" fill="#ef4444" filter="url(#glow)" />
+    <circle cx="220" cy="290" r="14" fill="none" stroke="#ef4444" stroke-width="2" class="heat-ring-1" />
+    
+    <!-- Click 2 at 980, 110 -->
+    <circle cx="980" cy="110" r="5" fill="#f59e0b" filter="url(#glow)" />
+    <circle cx="980" cy="110" r="16" fill="none" stroke="#f59e0b" stroke-width="2" class="heat-ring-2" />
+  </g>
+
+  <!-- 4. Subtle Floating Background Metric Badges (kept away from center text) -->
+  <g class="float-badge-1" filter="url(#pillShadow)" opacity="0.75">
+    <rect x="50" y="45" width="190" height="34" rx="17" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <circle cx="68" cy="62" r="5" fill="#10b981">
+      <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="82" y="66" fill="#94a3b8" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600">
+      SESSION REPLAY : LIVE
+    </text>
+  </g>
+
+  <g class="float-badge-2" filter="url(#pillShadow)" opacity="0.75">
+    <rect x="960" y="315" width="190" height="34" rx="17" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <circle cx="978" cy="332" r="5" fill="#ec4899">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2.5s" repeatCount="indefinite" />
+    </circle>
+    <text x="992" y="336" fill="#94a3b8" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600">
+      HEATMAPS &amp; FUNNELS
+    </text>
+  </g>
+
+  <!-- 5. Foreground Content (Crystal Clear, High Contrast, Centered, Never Obscured) -->
+  <g filter="url(#shadow)">
+    <!-- Top Category Tag -->
+    <g transform="translate(600, 75)">
+      <rect x="-185" y="-15" width="370" height="30" rx="15" fill="#1e1b4b" stroke="#6366f1" stroke-width="1.2" stroke-opacity="0.8" />
+      <text x="0" y="5" fill="#c7d2fe" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" text-anchor="middle" letter-spacing="1.5">
+        ✦ CURATED ECOSYSTEM DIRECTORY ✦
+      </text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="600" y="160" text-anchor="middle" class="text-title" font-size="44" fill="url(#titleGrad)" font-weight="900" letter-spacing="-0.8">
+      AWESOME USER EXPERIENCE ANALYTICS
+    </text>
+
+    <!-- Subtitle -->
+    <text x="600" y="202" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17" fill="#e2e8f0" font-weight="400" letter-spacing="0.2">
+      Digital Experience Analytics • Session Replay • Heatmaps • Product Telemetry
+    </text>
+
+    <!-- Feature Pills in Center Foreground -->
+    <g transform="translate(600, 246)">
+      <!-- Pill 1: Session Replay -->
+      <g transform="translate(-320, 0)">
+        <rect x="0" y="0" width="145" height="32" rx="16" fill="#0f172a" stroke="#3b82f6" stroke-width="1.2" />
+        <text x="72" y="20" fill="#93c5fd" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" text-anchor="middle">
+          ▶ Session Replay
+        </text>
+      </g>
+      <!-- Pill 2: Product Analytics -->
+      <g transform="translate(-160, 0)">
+        <rect x="0" y="0" width="150" height="32" rx="16" fill="#0f172a" stroke="#8b5cf6" stroke-width="1.2" />
+        <text x="75" y="20" fill="#c4b5fd" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" text-anchor="middle">
+          📊 Product Analytics
+        </text>
+      </g>
+      <!-- Pill 3: Click Heatmaps -->
+      <g transform="translate(5, 0)">
+        <rect x="0" y="0" width="145" height="32" rx="16" fill="#0f172a" stroke="#ec4899" stroke-width="1.2" />
+        <text x="72" y="20" fill="#f472b6" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" text-anchor="middle">
+          🔥 Click Heatmaps
+        </text>
+      </g>
+      <!-- Pill 4: Open Source & Self-Hosted -->
+      <g transform="translate(165, 0)">
+        <rect x="0" y="0" width="165" height="32" rx="16" fill="#0f172a" stroke="#10b981" stroke-width="1.2" />
+        <text x="82" y="20" fill="#6ee7b7" font-size="12" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" text-anchor="middle">
+          🛡️ Sovereign &amp; OSS
+        </text>
+      </g>
+    </g>
+
+    <!-- Bottom Line Metric / Tagline -->
+    <text x="600" y="325" text-anchor="middle" class="text-mono" font-size="13" fill="#64748b" font-weight="500">
+      Enterprise SaaS &amp; Sovereign Open-Source Stacks for Product Managers &amp; Engineers
+    </text>
+  </g>
+</svg>
