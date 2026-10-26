@@ -11,7 +11,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-User-Experience-Analytics/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-User-Experience-Analytics?style=flat-square&logo=github&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-User-Experience-Analytics/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-User-Experience-Analytics?style=flat-square&logo=github&color=gold" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-User-Experience-Analytics/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-User-Experience-Analytics?style=flat-square&logo=github&color=blue" alt="GitHub Forks" /></a>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" alt="License: MIT" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-User-Experience-Analytics/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" /></a>
@@ -86,63 +86,63 @@ The table below lists the market-leading SaaS Digital Experience and Product Ana
 
 The following active open-source projects provide self-hosted alternatives for session recording, click tracking, funnel analysis, and behavioral telemetry.
 
-The list is sorted in **descending order by GitHub star count**. Each badge displays the live star count and links directly to the project's stargazers page.
+The list is sorted in **descending order by GitHub Stars_Count**. Each badge displays the live Stars_Count and links directly to the project's stargazers page.
 
-1. **[PostHog](https://github.com/PostHog/posthog)** [![GitHub stars](https://img.shields.io/github/stars/PostHog/posthog?style=social&color=white)](https://github.com/PostHog/posthog/stargazers)  
+1. **[PostHog](https://github.com/PostHog/posthog)** [![GitHub_Stars](https://img.shields.io/github/stars/PostHog/posthog?style=social&color=white)](https://github.com/PostHog/posthog/stargazers)  
    The flagship open-source Product Operating System and UX analytics engine (MIT Core). Combines event autocapture, high-fidelity DOM session replay, click heatmaps, user journey funnels, retention tables, feature flags, multivariate A/B testing, in-app surveys, and data warehouse exports in a single deployable stack. Self-hostable via Docker/Kubernetes or available as managed cloud.
 
-2. **[Umami](https://github.com/umami-software/umami)** [![GitHub stars](https://img.shields.io/github/stars/umami-software/umami?style=social&color=white)](https://github.com/umami-software/umami/stargazers)  
+2. **[Umami](https://github.com/umami-software/umami)** [![GitHub_Stars](https://img.shields.io/github/stars/umami-software/umami?style=social&color=white)](https://github.com/umami-software/umami/stargazers)  
    Modern, privacy-first web and product analytics platform (MIT). Tracks page navigation, custom event interactions, marketing campaigns, conversion funnels, and retention without cookies or fingerprinting. Features a clean, fast dashboard and minimal database overhead (PostgreSQL or MySQL).
 
-3. **[Plausible Analytics](https://github.com/plausible/analytics)** [![GitHub stars](https://img.shields.io/github/stars/plausible/analytics?style=social&color=white)](https://github.com/plausible/analytics/stargazers)  
+3. **[Plausible Analytics](https://github.com/plausible/analytics)** [![GitHub_Stars](https://img.shields.io/github/stars/plausible/analytics?style=social&color=white)](https://github.com/plausible/analytics/stargazers)  
    Lightweight, open-source, privacy-focused analytics (AGPL-3.0). Script is under 1KB and fully cookieless, tracking user flow, page views, bounce rates, and custom goal conversions while maintaining 100% GDPR, CCPA, and PECR compliance out of the box.
 
-4. **[OpenObserve](https://github.com/openobserve/openobserve)** [![GitHub stars](https://img.shields.io/github/stars/openobserve/openobserve?style=social&color=white)](https://github.com/openobserve/openobserve/stargazers)  
+4. **[OpenObserve](https://github.com/openobserve/openobserve)** [![GitHub_Stars](https://img.shields.io/github/stars/openobserve/openobserve?style=social&color=white)](https://github.com/openobserve/openobserve/stargazers)  
    High-performance, cloud-native observability platform written in Rust (AGPL-3.0). Unifies browser and mobile session replays, Real User Monitoring (RUM for web, iOS, Android), logs, metrics, and traces with up to 140x lower storage costs than traditional APM vendors.
 
-5. **[Matomo](https://github.com/matomo-org/matomo)** [![GitHub stars](https://img.shields.io/github/stars/matomo-org/matomo?style=social&color=white)](https://github.com/matomo-org/matomo/stargazers)  
+5. **[Matomo](https://github.com/matomo-org/matomo)** [![GitHub_Stars](https://img.shields.io/github/stars/matomo-org/matomo?style=social&color=white)](https://github.com/matomo-org/matomo/stargazers)  
    The mature, self-hosted web analytics platform (GPL-3.0) and leading sovereign alternative to Google Analytics. Offers rich user experience add-ons including mouse tracking heatmaps, full session recording, form field analytics, conversion funnels, and visitor profile histories.
 
-6. **[rrweb](https://github.com/rrweb-io/rrweb)** [![GitHub stars](https://img.shields.io/github/stars/rrweb-io/rrweb?style=social&color=white)](https://github.com/rrweb-io/rrweb/stargazers)  
+6. **[rrweb](https://github.com/rrweb-io/rrweb)** [![GitHub_Stars](https://img.shields.io/github/stars/rrweb-io/rrweb?style=social&color=white)](https://github.com/rrweb-io/rrweb/stargazers)  
    The foundational JavaScript library (MIT) powering modern open-source session replays. Encodes, serializes, and replays complete DOM mutations, CSS stylesheets, mouse moves, scroll offsets, form inputs, and canvas animations with low runtime overhead.
 
-7. **[OpenReplay](https://github.com/openreplay/openreplay)** [![GitHub stars](https://img.shields.io/github/stars/openreplay/openreplay?style=social&color=white)](https://github.com/openreplay/openreplay/stargazers)  
+7. **[OpenReplay](https://github.com/openreplay/openreplay)** [![GitHub_Stars](https://img.shields.io/github/stars/openreplay/openreplay?style=social&color=white)](https://github.com/openreplay/openreplay/stargazers)  
    Developer-centric, self-hosted session replay and UX debugging platform (AGPL-3.0). Reconstructs user interactions with synchronized browser DevTools (network requests, console logs, Redux/Vuex state mutations, CPU/memory spikes), click heatmaps, and funnel conversion tracking.
 
-8. **[HyperDX](https://github.com/hyperdxio/hyperdx)** [![GitHub stars](https://img.shields.io/github/stars/hyperdxio/hyperdx?style=social&color=white)](https://github.com/hyperdxio/hyperdx/stargazers)  
+8. **[HyperDX](https://github.com/hyperdxio/hyperdx)** [![GitHub_Stars](https://img.shields.io/github/stars/hyperdxio/hyperdx?style=social&color=white)](https://github.com/hyperdxio/hyperdx/stargazers)  
    Open-source observability and session playback platform (MIT) built on ClickHouse and OpenTelemetry. Seamlessly links frontend user replays with distributed backend traces, container logs, and error stack traces to diagnose UX regressions end-to-end.
 
-9. **[Highlight.io](https://github.com/highlight/highlight)** [![GitHub stars](https://img.shields.io/github/stars/highlight/highlight?style=social&color=white)](https://github.com/highlight/highlight/stargazers)  
+9. **[Highlight.io](https://github.com/highlight/highlight)** [![GitHub_Stars](https://img.shields.io/github/stars/highlight/highlight?style=social&color=white)](https://github.com/highlight/highlight/stargazers)  
    Fullstack monitoring platform (Apache-2.0) that pairs full session replay with frontend JavaScript exception tracking, backend traces, and logging. Enables developers to reproduce user bugs in seconds with integrated DevTools inspection.
 
-10. **[GrowthBook](https://github.com/growthbook/growthbook)** [![GitHub stars](https://img.shields.io/github/stars/growthbook/growthbook?style=social&color=white)](https://github.com/growthbook/growthbook/stargazers)  
+10. **[GrowthBook](https://github.com/growthbook/growthbook)** [![GitHub_Stars](https://img.shields.io/github/stars/growthbook/growthbook?style=social&color=white)](https://github.com/growthbook/growthbook/stargazers)  
     Warehouse-native feature flagging and experimentation engine (MIT). Connects directly to Snowflake, BigQuery, ClickHouse, or Postgres to calculate user experience experiment impact, Bayesian/frequentist statistics, and behavioral metric improvements.
 
-11. **[OpenPanel](https://github.com/Openpanel-dev/openpanel)** [![GitHub stars](https://img.shields.io/github/stars/Openpanel-dev/openpanel?style=social&color=white)](https://github.com/Openpanel-dev/openpanel/stargazers)  
+11. **[OpenPanel](https://github.com/Openpanel-dev/openpanel)** [![GitHub_Stars](https://img.shields.io/github/stars/Openpanel-dev/openpanel?style=social&color=white)](https://github.com/Openpanel-dev/openpanel/stargazers)  
     Modern, open-source alternative to Mixpanel and Amplitude (AGPL-3.0). Features an intuitive user dashboard for tracking custom telemetry events, user journey flows, multi-step conversion funnels, and demographic profiles with self-hosting support.
 
-12. **[Countly](https://github.com/Countly/countly-server)** [![GitHub stars](https://img.shields.io/github/stars/Countly/countly-server?style=social&color=white)](https://github.com/Countly/countly-server/stargazers)  
+12. **[Countly](https://github.com/Countly/countly-server)** [![GitHub_Stars](https://img.shields.io/github/stars/Countly/countly-server?style=social&color=white)](https://github.com/Countly/countly-server/stargazers)  
     Enterprise-grade, privacy-first analytics and user engagement platform (AGPL-3.0 core). Tracks granular user interactions, friction points, crash analytics, and push engagement across web, iOS, Android, and connected IoT devices.
 
-13. **[Ackee](https://github.com/electerious/Ackee)** [![GitHub stars](https://img.shields.io/github/stars/electerious/Ackee?style=social&color=white)](https://github.com/electerious/Ackee/stargazers)  
+13. **[Ackee](https://github.com/electerious/Ackee)** [![GitHub_Stars](https://img.shields.io/github/stars/electerious/Ackee?style=social&color=white)](https://github.com/electerious/Ackee/stargazers)  
     Minimalist, privacy-first Node.js analytics server (MIT). Provides real-time traffic telemetry, page dwell duration, bounce statistics, and referral insights through a clean, distraction-free interface without user tracking or cookies.
 
-14. **[Talivia](https://github.com/talivia-group/talivia)** [![GitHub stars](https://img.shields.io/github/stars/talivia-group/talivia?style=social&color=white)](https://github.com/talivia-group/talivia/stargazers)  
+14. **[Talivia](https://github.com/talivia-group/talivia)** [![GitHub_Stars](https://img.shields.io/github/stars/talivia-group/talivia?style=social&color=white)](https://github.com/talivia-group/talivia/stargazers)  
     Revenue-first open-source analytics platform (AGPL-3.0) for startups and SaaS founders. Integrates web interaction tracking, session replay, customer journeys, and payment gateway revenue attribution.
 
-15. **[Aptabase](https://github.com/aptabase/aptabase)** [![GitHub stars](https://img.shields.io/github/stars/aptabase/aptabase?style=social&color=white)](https://github.com/aptabase/aptabase/stargazers)  
+15. **[Aptabase](https://github.com/aptabase/aptabase)** [![GitHub_Stars](https://img.shields.io/github/stars/aptabase/aptabase?style=social&color=white)](https://github.com/aptabase/aptabase/stargazers)  
     Lightweight, privacy-first open-source telemetry engine (AGPL-3.0) engineered specifically for mobile (iOS, Android, Flutter, React Native) and desktop applications (Electron, Tauri). Sub-centisecond tracking with zero personal data collection.
 
-16. **[Trench](https://github.com/FrigadeHQ/trench)** [![GitHub stars](https://img.shields.io/github/stars/FrigadeHQ/trench?style=social&color=white)](https://github.com/FrigadeHQ/trench/stargazers)  
+16. **[Trench](https://github.com/FrigadeHQ/trench)** [![GitHub_Stars](https://img.shields.io/github/stars/FrigadeHQ/trench?style=social&color=white)](https://github.com/FrigadeHQ/trench/stargazers)  
     High-throughput event tracking infrastructure (Apache-2.0) packaged as a single Docker image built on ClickHouse, Kafka, and Node.js. Ingests tens of thousands of client-side interaction events per second for custom UX analytics dashboards and LLM agent telemetry.
 
-17. **[Retentioneering](https://github.com/retentioneering/retentioneering-tools)** [![GitHub stars](https://img.shields.io/github/stars/retentioneering/retentioneering-tools?style=social&color=white)](https://github.com/retentioneering/retentioneering-tools/stargazers)  
+17. **[Retentioneering](https://github.com/retentioneering/retentioneering-tools)** [![GitHub_Stars](https://img.shields.io/github/stars/retentioneering/retentioneering-tools?style=social&color=white)](https://github.com/retentioneering/retentioneering-tools/stargazers)  
     Python framework and MCP server (MIT) for quantitative UX trajectory modeling. Converts raw clickstreams into directed graph user flows, Markov chain navigation simulations, friction clustering, and conversion drop-off discovery.
 
-18. **[smolanalytics](https://github.com/Arjun0606/smolanalytics)** [![GitHub stars](https://img.shields.io/github/stars/Arjun0606/smolanalytics?style=social&color=white)](https://github.com/Arjun0606/smolanalytics/stargazers)  
+18. **[smolanalytics](https://github.com/Arjun0606/smolanalytics)** [![GitHub_Stars](https://img.shields.io/github/stars/Arjun0606/smolanalytics?style=social&color=white)](https://github.com/Arjun0606/smolanalytics/stargazers)  
     Single-binary analytics toolkit (MIT) combining product analytics (funnels, retention, paths), feature flags, click heatmaps, in-product surveys, and a session inspector; includes an embedded Model Context Protocol (MCP) server for querying user insights directly from code editors.
 
-19. **[Factcat](https://github.com/gordonkjlee/factcat)** [![GitHub stars](https://img.shields.io/github/stars/gordonkjlee/factcat?style=social&color=white)](https://github.com/gordonkjlee/factcat/stargazers)  
+19. **[Factcat](https://github.com/gordonkjlee/factcat)** [![GitHub_Stars](https://img.shields.io/github/stars/gordonkjlee/factcat?style=social&color=white)](https://github.com/gordonkjlee/factcat/stargazers)  
     Warehouse-native open-source alternative to Amplitude and Mixpanel. Generates optimized SQL queries directly against your data warehouse (BigQuery, Snowflake, DuckDB, Postgres, ClickHouse) without copying or ingesting proprietary telemetry data into an external cloud.
 
 ---
